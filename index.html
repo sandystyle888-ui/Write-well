@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Write Well — Handcrafted Notebooks</title>
+  <meta name="description" content="Write Well — small-batch, affordable notebooks made with local press. A5, A4, customised covers, school bulk orders." />
+  <style>
+    :root{--accent:#0b84ff;--muted:#6b7280;--bg:#fbfdff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:#0b1726;line-height:1.5}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:800}
+    nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr;gap:20px;align-items:center;padding:36px 0}
+    .hero h1{font-size:clamp(28px,4vw,44px);margin:0}
+    .cta{display:inline-block;margin-top:12px;padding:10px 18px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:700}
+    .card{background:white;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:12px}
+    footer{margin-top:36px;padding:18px 0;color:var(--muted);font-size:14px;text-align:center}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}header{flex-direction:column;align-items:flex-start}nav{margin-top:10px} }
+    @media(max-width:560px){.grid{grid-template-columns:1fr}.hero{padding:20px 0}}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef2ff;color:var(--accent);font-weight:700}
+    .socials{display:flex;gap:10px}
+    .btn-outline{padding:8px 12px;border-radius:10px;border:2px solid var(--accent);background:transparent;color:var(--accent);text-decoration:none;font-weight:700}
+    form label{display:block;margin-top:12px;font-weight:600}
+    input,textarea,select{width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid #e6eef7}
+    textarea{min-height:120px}
+    .price{font-weight:800}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img class="logo-img" src="writewell-logo.png" style="width:160px;height:auto;object-fit:contain;" />
+        <div>
+          <div style="font-weight:800">Write Well</div>
+          <div class="muted" style="font-size:13px">Handcrafted notebooks • Small-batch printing</div>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#bulk">Bulk & Schools</a>
+        <a href="#contact" class="pill">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Write Well — Quality notebooks made locally.</h1>
+          <p class="muted">We run small, affordable print runs using our family press. Perfect for students, offices, and custom orders.</p>
+          <a class="cta" href="#contact">Request a Quote</a>
+        </div>
+        <div class="card">
+          <strong>Why choose Write Well?</strong>
+          <ul class="muted" style="margin-top:8px">
+            <li>Local printing — faster turnaround and lower costs</li>
+            <li>Small-batch flexibility — order 50 or 500</li>
+            <li>Custom covers, ruled/plain pages, staple/pinned/spiral options</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" style="margin-top:18px">
+        <div class="card">
+          <h2>About Write Well</h2>
+          <p class="muted">Write Well is a small stationery brand started by Sandeep. We make A5 and A4 notebooks, planners, and exercise books. Because we have access to a local printing press, we can offer competitive prices and quick local pickup.</p>
+        </div>
+      </section>
+
+      <section id="products" style="margin-top:18px">
+        <div class="card">
+          <h3>Popular products</h3>
+          <div class="grid" style="margin-top:12px">
+            <div class="card">
+              <div style="font-weight:800">27×17 cm Notebook — 80 pages</div>
+              <div class="muted">Size: 27×17 cm • Paper: 70 GSM • Binding: Staple or Pin</div>
+              <div style="margin-top:8px" class="price">Price: ₹50 / piece</div>
+              <div class="muted" style="margin-top:8px">Popular school exercise book size</div>
+            </div>
+
+            <div class="card">
+              <div style="font-weight:800">A4 Notebook — 80 pages</div>
+              <div class="muted">Size: A4 • Paper: 70 GSM • Binding: Staple or Pin</div>
+              <div style="margin-top:8px" class="price">Price: ₹60 / piece</div>
+              <div class="muted" style="margin-top:8px">Perfect for school & office use</div>
+            </div>
+
+            <div class="card">
+              <div style="font-weight:800">A5 Notebook — 80 pages</div>
+              <div class="muted">Size: A5 • Paper: 70 GSM • Binding: Staple or Pin</div>
+              <div style="margin-top:8px" class="price">Price: ₹45 / piece</div>
+              <div class="muted" style="margin-top:8px">Custom cover printing available (+₹25)</div>
+            </div>
+
+            <div class="card">
+              <div style="font-weight:800">A5 Notebook — 160 pages</div>
+              <div class="muted">Size: A5 • Paper: 70 GSM • Smyth-sewn/Perfect bound optional</div>
+              <div style="margin-top:8px" class="price">Price: ₹95 / piece</div>
+              <div class="muted" style="margin-top:8px">Discounts for 100+ units</div>
+            </div>
+
+            <div class="card">
+              <div style="font-weight:800">Custom Notebooks</div>
+              <div class="muted">School logos, corporate branding, gift sets.</div>
+              <div style="margin-top:8px" class="price">Starting at ₹40 / piece (depends on quantity)</div>
+            </div>
+          </div>
+
+          <p class="muted" style="margin-top:12px">These are sample prices — edit to match your real costs. Because you have access to a press, you can set better margins and offer local pickup discounts.</p>
+        </div>
+      </section>
+
+      <section id="bulk" style="margin-top:18px;display:grid;grid-template-columns:2fr 1fr;gap:16px">
+        <div>
+          <div class="card">
+            <h3>Bulk orders & Schools</h3>
+            <p class="muted">We accept bulk orders for schools, coaching centres and businesses. Typical lead time for 500+ units: 7–14 days. We can print logos, add ruled/graph/plain inner pages, and bundle with elastic bands or shrink-wrap.</p>
+            <ul class="muted">
+              <li>Minimum bulk run: 50 units</li>
+              <li>Free sample available for larger orders (contact for details)</li>
+              <li>Pickup from local press or delivery within city</li>
+            </ul>
+          </div>
+
+          <div class="card" style="margin-top:12px">
+            <h3>Quick cost example</h3>
+            <p class="muted">Example: 200 A5, 80pp — estimated production cost ₹70 per piece, selling price ₹120 — estimated margin ₹50 per piece. (Adjust for material, transport, packaging.)</p>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h4>Order options</h4>
+            <div class="muted" style="margin-top:8px">
+              <strong>Binding:</strong> Staple / Pinned / Spiral<br/>
+              <strong>Pages:</strong> 40 / 80 / 160<br/>
+              <strong>Covers:</strong> Cardstock matte / Laminated gloss / Soft-touch
+            </div>
+            <a class="btn-outline" href="#contact" style="margin-top:12px;display:inline-block">Request Bulk Quote</a>
+          </div>
+        </aside>
+      </section>
+
+      <section id="contact" style="margin-top:18px">
+        <div class="card">
+          <h3>Contact & Order</h3>
+          <p class="muted">Tell us your requirements and we will reply with a price and lead time.</p>
+          <form onsubmit="handleSubmit(event)">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" required />
+
+            <label for="phone">Phone / WhatsApp</label>
+            <input id="phone" type="text" placeholder="e.g. +91 98XXXXXXXX" />
+
+            <label for="product">Product / Message</label>
+            <select id="product">
+              <option>A5 — 80pp (Sample price ₹120)</option>
+              <option>A5 — 160pp (Sample price ₹200)</option>
+              <option>Custom / Bulk</option>
+            </select>
+
+            <label for="message">Details (quantity, cover, binding)</label>
+            <textarea id="message" placeholder="Qty, cover type, any special instructions..."></textarea>
+
+            <div style="margin-top:12px;display:flex;gap:8px">
+              <button type="submit" class="cta">Send email</button>
+              <a class="btn-outline" id="mailtoLink" href="#">Open in Mail</a>
+            </div>
+            <div id="status" style="margin-top:8px;color:green;display:none">Message prepared. If your mail client didn't open, click 'Open in Mail'.</div>
+          </form>
+        </div>
+
+        <div class="muted" style="margin-top:12px">
+          <div class="card">
+            <h4>Follow & Visit</h4>
+            <p class="muted">Instagram: @writewell (add your handle) • Local pickup available — mention your city when enquiring.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      Write Well • Small-batch notebooks • Edit this file to add real photos and your contact details.
+    </footer>
+  </div>
+
+  <script>
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const product = document.getElementById('product').value;
+      const msg = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Write Well enquiry from ' + name);
+      const bodyLines = ['Name: ' + name, 'Email: ' + email, 'Phone: ' + phone, 'Product: ' + product, '', msg];
+      const body = encodeURIComponent(bodyLines.join('
+'));
+      const mailto = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+      window.location.href = mailto;
+      document.getElementById('status').style.display = 'block';
+      document.getElementById('status').textContent = 'If your mail client did not open automatically, click "Open in Mail".';
+      const mailtoLink = document.getElementById('mailtoLink');
+      mailtoLink.href = mailto;
+      mailtoLink.textContent = 'Open in Mail';
+    }
+  </script>
+
+  <!--
+    How to use this file:
+    1) Download > Save as index.html and open in browser to preview.
+    2) Replace placeholder email (your-email@example.com) with your real email and update Instagram handle.
+    3) Replace product prices and add real photos (img tags) in the Portfolio section.
+    4) To host for free: push to a GitHub repo and enable Pages, or deploy on Netlify/Vercel.
+
+    If you want, I can:
+      • Add your real product photos into the page
+      • Create a ZIP or GitHub repo structure ready to deploy
+      • Wire a free form service (Formspree or Netlify Forms) so messages go to your inbox without mailto
+
+    I used information you previously provided: business name "Write Well" and access to a printing press to set realistic bulk options and pricing examples. Edit numbers to match your exact costs.
+  -->
+</body>
+</html>
